@@ -14,7 +14,7 @@ class Song
     @genre = genre
     @@count +=1
     @@artists<<artist if !@@artists.include?(artist)
-    @@genres<<genre if !@@genre.include?(genre)
+    @@genres<<genre if !@@genres.include?(genre)
     @@genres_count[genre] ||= +1
     @@artists_count[artist] ||= +1
   end
