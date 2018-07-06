@@ -40,7 +40,7 @@ class Song
     @@artists.uniq.each do |artist|
       artists_count_hash[artist]=@@artists.count(artist)
     end
-    artist_count_hash
+    artists_count_hash
   end
 
 end
